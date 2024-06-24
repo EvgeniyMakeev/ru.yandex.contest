@@ -1,15 +1,10 @@
-package contest4.warm_up;
-
-/*
-Задано две строки, нужно проверить, является ли одна анаграммой другой.
-Анаграммой называется строка, полученная из другой перестановкой букв.
- */
+package algorithm_training_5.lesson_3;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class Anagram {
+public class BAnagram {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         String s1 = scan.nextLine();
